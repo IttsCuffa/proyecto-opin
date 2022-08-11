@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>OSPIN</title>
+    <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    
+  
+    <form action="1.php" method="post" class="form">
+    <h1><span>Hola</span> bienvenido</h1>
+    <h2>Datos del paciente:</h2>
+    <div class="form-seccion">
+       
+        <input type="text" name="nombre" required placeholder=""  class="input-form" id="Nombre">
+        <label class="form-label" for="Nombre"> Ingrese su nombre: </label>
+    </div>
+  <div class="form-seccion">
+   
+    <input type=" text" name="apellido" required placeholder=" " class="input-form" id="Apellido">
+    <label class="form-label" for="Apellido"> Ingrese su apellido:</label>
+  </div>
+   <div class="form-seccion">
+  
+    <input type="text" name="ObraSocial" required placeholder=" " class="input-form" id="ObraSocial">
+        
+    <label class="form-label" for="ObraSocial">Ingrese número de su Obra Social:</label>
+   </div>
+  <div class="form-seccion">
+   
+    <input type="password" name="contraseña" required class="input-form" id="contrasena" placeholder=" ">
+    <label class="form-label" for="contrasena">Ingrese contrasena:</label>
+  </div>
+   <div class="form-seccion">
+    
+    <input type="email" name="email" required class="input-form" id="Mail" placeholder=" ">
+    <label  class="form-label" for="Mail"> Ingrese su mail:</label>
+   </div>
+  
+    <!--input btn-->
+    <input type="submit" value=" Enviar" class="btn-submit">
+        
+
+   
+    </form>
+</body>
+</html>

@@ -1,0 +1,145 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif; 
+    background: #0f0c29;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+display: flex;
+min-height: 100vh;
+}
+
+
+
+
+.form,
+.contenedor-final{
+    background-color:rgba(255, 255, 255, 0.1) ;
+    backdrop-filter: blur(10px);
+    -webkit-background-filter:blur(10px) ;
+    border-radius: 15px;
+    margin: auto;
+    width: 90%;
+    max-width: 400px;
+    padding: 2rem;
+    text-align: center;
+   
+}
+h1{
+    color: white;
+    margin: 15px;
+}
+h1 span{
+    color:#00b362 ;
+    text-align: center;
+}
+
+h2{
+    font-weight: 400;
+    margin: 2rem;
+    margin-bottom: 3rem;
+    color: white;
+    text-align: start;
+}
+h2 span{
+    color:#00b362 ;
+    display: block;
+    font-family: 'Poppins', sans-serif; 
+}
+.contenedor-final h2{
+    text-align: start;
+    line-height: 1.5;
+}
+.form .form-seccion{
+    position: relative;
+    color: black;
+    margin: 20px;
+}
+
+.form .input-form{
+    width: 100%;
+    background: none;
+    color: #d1cfd6;
+    font-size: 1rem;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 10px;
+   
+}
+.form .input-form:focus + .form-label,
+.input-form:not(:placeholder-shown) + .form-label{
+    transform: translateY(-12px) scale(.9);
+    transform-origin: left top;
+    color: #00b362;
+   
+}
+.form .form-label{
+    cursor: pointer;
+    color: #e6e6e6;
+    
+    position: absolute;
+    top: 0;
+    left: 20px;
+    transform: translateY(15px);
+    transition: transform .5s ;
+ 
+}
+.btn-submit{
+   
+    background-color: RGBA(0,179,98,0.7);
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    border-radius: 20px;
+    height: 50px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+   color: white;
+    padding: 1rem;
+
+}
+
+.btn-submit:hover{
+    background-color: 
+    RGBA(0,179,98,0.53);
+}
+.label-select{
+    color: white;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif; 
+}
+.select{
+    border-radius:20px;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 100%;
+    font-family: 'Poppins', sans-serif; 
+}
+.select-option{
+    font-family: 'Poppins', sans-serif; 
+    font-weight: 500;
+    
+}
+
+/**Diseno Formulario ignacio**/
+.form-seccion .contenedor-sintomas{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+
+}
+
+p{
+    font-weight: 500;
+    text-align: center;
+
+}
